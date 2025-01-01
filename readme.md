@@ -36,3 +36,11 @@ https://developer.mozilla.org/
 3. span - with the price, color text white, background black 
 4. image - the car you suggest, width & height 500px 
 5. anchor link - for more info to yad2 site. 
+
+
+### Ex-2
+- Create Index page with anchors
+1. anchor 1 - redirect to blue.html - a page with blue background
+2. anchor 2 - redirect to green.html - a page with green background
+3. anchor 3 - redirect to red.html - a page with red background
+4. put an option to go back to the index page from each color page
