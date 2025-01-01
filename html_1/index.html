@@ -5,33 +5,61 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>TLT Real estate</title>
+
+    <style>
+        /* <SELECTOR> { 
+        <RULES>
+       } */
+
+        h1 {
+            color: red
+        }
+
+        li {
+            background-color: pink;
+        }
+
+        .special-anchors {
+            font-size: 33px;
+            border-left: 10px solid black;
+            color: red;
+            letter-spacing: 7px;
+        }
+    </style>
 </head>
 
 <body>
-    <header>
-        <h1> TLT Real Estate </h1>
+    <div>
+        <div>
+            <h1> TLT Real Estate </h1>
+            <a href="https://developer.mozilla.org/en-US/docs/Web/API/HTMLElement/style"> Docs </a>
+        </div>
         <h2> By Ofek Harush </h2>
         <br>
         <br>
         <h2> Services </h2>
-        <ol>
-            <li> Rental apartment </li>
-            <li> Rent a Car </li>
-            <li> Full apartment content </li>
-        </ol>
+        <div>
+            <ol>
+                <li> Rental apartment </li>
+                <li> Rent a Car </li>
+                <li> Full apartment content </li>
+            </ol>
+        </div>
         <br>
         <br>
         <div>
-            <a href="https://tlt-israel.co.il/"> Visit us on our new website </a>
+            <a class="special-anchors" href="https://tlt-israel.co.il/"> Visit us on our new website </a>
         </div>
         <div>
-            <img src="https://tlt-israel.co.il/wp-content/uploads/2024/02/WhatsApp-Image-2022-11-13-at-17.32.00.jpeg"
+            <!-- example for inline style -->
+            <img style="border: 4px solid black;" width="300" height="300"
+                src="https://tlt-israel.co.il/wp-content/uploads/2024/02/WhatsApp-Image-2022-11-13-at-17.32.00.jpeg"
                 alt="NO IMAGE">
         </div>
-
-
-
-    </header>
+        <div>
+            <a class="special-anchors" href="https://tlt-israel.co.il/"> Visit us on our new website </a>
+        </div>
+    </div>
 
 
 </body>
