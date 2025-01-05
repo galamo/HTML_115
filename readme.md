@@ -210,7 +210,7 @@ Learn how to use external CSS to style your webpage using classes.
 
     11. **Pick up from**
 
-       - Input type: select
+       - Input type: select <select> <option> City </option> </select>
        - Label: "Pick up location"
        - Options: "Airport", "City", "Mall"
 
