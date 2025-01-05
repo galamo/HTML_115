@@ -1,14 +1,79 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Details Form</title>
 </head>
-
 <body>
+    
+    <form action="server.html">
+
+        <label>Full name: </label>
+        <input type="text" name="fullName" id="fullNameBox">
+        <br><br>
+
+        <label>Birth Date:</label>
+        <input type="date" name="birthDate">
+        <br><br>
+
+        <label>Number of Cats: </label>
+        <input type="number" name="numOfCats">
+        <br><br>
+        
+        <label>Favorite Color: </label>
+        <input type="color" name="favoriteColor">
+        <br><br>
+
+        <label>Home page: </label>
+        <input type="url" name="homePage">
+        <br><br>
+        
+        <label>Phone: </label>
+        <input type="tel" name="phone">
+        <br><br>
+        
+        <label>Email: </label>
+        <input type="email" name="email">
+        <br><br>
+        
+        <label>Address: </label>
+        <textarea name="address"></textarea>
+        <br><br>
+        
+        <label>City</label>
+        <select name="city">
+            <option>Tel Aviv</option>
+            <option>Jerusalem</option>
+            <option>Haifa</option>
+            <option>Ramat-Gan</option>
+        </select>
+        <br><br>
+        
+        <input type="checkbox" name="sendPromo" id="sendPromoBox">
+        <label for="sendPromoBox">Send me promotional emails</label>
+        <br><br>
+        
+        <label>
+            <input type="checkbox" name="knowHtml">
+            I Know HTML
+        </label>
+
+        <br><br>
+        
+        <label>Gender:</label>
+        <br>
+        
+        <input type="radio" name="gender" value="male" id="maleBox">
+        <label for="maleBox">Male</label>
+        <br>
+        <input type="radio" name="gender" value="female" id="femaleBox">
+        <label for="femaleBox">Female</label>
+        <br><br>
+
+        <button>Send</button>
+
+    </form>
 
 </body>
-
 </html>
