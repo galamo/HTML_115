@@ -130,3 +130,6 @@ Learn how to use external CSS to style your webpage using classes.
 1. Create Anchor in the header of each page.
 2. Each Anchor will redirect to the other page, from assignment1.html to assignment2.html and vice versa.
 3. Make your image clickable - when clicking the image the site wil redirect to: https://developer.mozilla.org/en-US/
+
+
+
