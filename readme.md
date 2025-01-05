@@ -208,6 +208,12 @@ Learn how to use external CSS to style your webpage using classes.
        - Label: "Special Requests"
        - Placeholder: "Enter any special requests"
 
+    11. **Pick up from**
+
+       - Input type: select
+       - Label: "Pick up location"
+       - Options: "Airport", "City", "Mall"
+
 5. **Add a Submit Button:**
 
    - Use the `<button>` or `<input>` tag with the type set to `submit`.
