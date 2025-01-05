@@ -131,101 +131,88 @@ Learn how to use external CSS to style your webpage using classes.
 2. Each Anchor will redirect to the other page, from assignment1.html to assignment2.html and vice versa.
 3. Make your image clickable - when clicking the image the site wil redirect to: https://developer.mozilla.org/en-US/
 
-
-
-
 # Exercise: Create a Car Rental Order Page in HTML
 
-The goal of this exercise is to create a simple HTML page for ordering a car for rental. The form should include at least 10 properties and utilize various input types such as text, date, number, radio buttons, and checkboxes.
+## Instructions
 
-Instructions
+1. **Set Up Your HTML File:**
 
-Set Up Your HTML File:
+   - Create a new file named `car_rental_order.html`.
+   - Use the standard HTML structure (DOCTYPE declaration, `<html>`, `<head>`, and `<body>` tags).
+   - create a new file named `order_submitted.html` with h1 contains `Ordered Successfully`
 
-Create a new file named car_rental_order.html.
+2. **Add a Title and Heading:**
 
+   - Include a `<title>` in the `<head>` section, e.g., "Car Rental Order".
+   - Add a `<h1>` heading at the top of the page with the text "Car Rental Order Form".
 
-Create the Form:
+3. **Create the Form:**
 
-Use the <form> tag to define the form.
+   - Use the `<form>` tag to define the form.
+   - Set the `action` attribute to `"/order_submitted.html"` (or any placeholder) and the `method` attribute to `POST`.
 
-Set the action attribute to "/submit-order" (or any placeholder) and the method attribute to POST.
+4. **Add the Following Fields:**
 
-Add the Following Fields:
+   1. **Name**
 
-Name
+      - Input type: text
+      - Label: "Full Name"
+      - Placeholder: "Enter your full name"
 
-Input type: text
+   2. **Email**
 
-Label: "Full Name"
+      - Input type: email
+      - Label: "Email Address"
+      - Placeholder: "Enter your email"
 
-Placeholder: "Enter your full name"
+   3. **Phone Number**
 
-Email
+      - Input type: tel
+      - Label: "Phone Number"
+      - Placeholder: "Enter your phone number"
 
-Input type: email
+   4. **Pickup Date**
 
-Label: "Email Address"
+      - Input type: date
+      - Label: "Pickup Date"
 
-Placeholder: "Enter your email"
+   5. **Return Date**
 
-Phone Number
+      - Input type: date
+      - Label: "Return Date"
 
-Input type: tel
+   6. **Car Type**
 
-Label: "Phone Number"
+      - Input type: radio buttons
+      - Options: "Sedan", "SUV", "Truck", "Convertible"
 
-Placeholder: "Enter your phone number"
+   7. **Extras**
 
-Pickup Date
+      - Input type: checkboxes
+      - Options: "GPS", "Child Seat", "Additional Driver"
 
-Input type: date
+   8. **Rental Duration**
 
-Label: "Pickup Date"
+      - Input type: number
+      - Label: "Number of Days"
 
-Return Date
+   9. **Pickup Location**
 
-Input type: date
+      - Input type: text
+      - Label: "Pickup Location"
+      - Placeholder: "Enter pickup location"
 
-Label: "Return Date"
+   10. **Comments**
 
-Car Type
+       - Input type: textarea
+       - Label: "Special Requests"
+       - Placeholder: "Enter any special requests"
 
-Input type: radio buttons
+5. **Add a Submit Button:**
 
-Options: "Sedan", "SUV", "Truck", "Convertible"
+   - Use the `<button>` or `<input>` tag with the type set to `submit`.
+   - Label the button as "Submit Order".
 
-Extras
+6. **Style the Form (Optional):**
 
-Input type: checkboxes
-
-Options: "GPS", "Child Seat", "Additional Driver"
-
-Rental Duration
-
-Input type: number
-
-Label: "Number of Days"
-
-Pickup Location
-
-Input type: text
-
-Label: "Pickup Location"
-
-Placeholder: "Enter pickup location"
-
-Comments
-
-Input type: textarea
-
-Label: "Special Requests"
-
-Placeholder: "Enter any special requests"
-
-Add a Submit Button:
-
-Use the <button> or <input> tag with the type set to submit.
-
-Label the button as "Submit Order".
-
+   - Use inline CSS or a `<style>` tag in the `<head>` to improve the visual presentation of the form.
