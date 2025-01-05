@@ -149,7 +149,7 @@ Learn how to use external CSS to style your webpage using classes.
 3. **Create the Form:**
 
    - Use the `<form>` tag to define the form.
-   - Set the `action` attribute to `"/order_submitted.html"` (or any placeholder) and the `method` attribute to `GET`.
+   - Set the `action` attribute to `"order_submitted.html"` (or any placeholder) and the `method` attribute to `GET`.
 
 4. **Add the Following Fields:**
 
