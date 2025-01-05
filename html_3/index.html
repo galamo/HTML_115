@@ -6,96 +6,117 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Details Form</title>
 </head>
+<style>
+    .inlin-block-form {
+        width: 250px;
+        display: inline-block;
+        border: 1px solid black;
+        padding: 10px
+    }
+
+    .center-main-form {
+        margin-left: auto;
+        margin-right: auto;
+        width: 100%;
+    }
+</style>
 
 <body>
     <!-- ?KEY1=VALUE1&KEY2=VALUE2&.... -->
 
-    <form method="get" action="server.html" novalidate>
+    <div class="center-main-form">
+        <form method="get" action="server.html" novalidate>
 
-        <label>Full name: </label>
-        <input type="text" value="Gal Amo" name="fullName" id="fullNameBox">
-        <br><br>
+            <div class="inlin-block-form">
+                <label>Full name: </label>
+                <input type="text" value="Gal Amo" name="fullName" id="fullNameBox">
+                <br><br>
 
-        <label>Birth Date:</label>
-        <input type="date">
-        <br><br>
+                <label>Birth Date:</label>
+                <input type="date">
+                <br><br>
 
-        <label>Number of Cats: </label>
-        <input type="number" name="numOfCats">
-        <br><br>
+                <label>Number of Cats in the world: </label>
+                <input type="number" name="numOfCats">
+                <br><br>
 
-        <label>Favorite Color: </label>
-        <input type="color" name="favoriteColor">
-        <br><br>
+                <label>Favorite Color: </label>
+                <input type="color" name="favoriteColor">
+                <br><br>
 
-        <label>Home page: </label>
-        <input type="url" name="homePage">
-        <br><br>
+                <label>Home page: </label>
+                <input type="url" name="homePage">
+                <br><br>
 
-        <label>Phone: </label>
-        <input type="tel" name="phone">
-        <br><br>
+                <label>Phone: </label>
+                <input type="tel" name="phone">
+                <br><br>
 
-        <label>Email: </label>
-        <input type="email" name="email">
-        <br><br>
+                <label>Email: </label>
+                <input type="email" name="email">
+                <br><br>
+                <label>Comment: </label>
+                <textarea name="writeUsAComment"></textarea>
+                <br><br>
+            </div>
+            <div class="inlin-block-form">
 
-        <label>Comment: </label>
-        <textarea name="writeUsAComment"></textarea>
-        <br><br>
 
-        <label>Address Street: </label>
-        <input type="text" />
-        <br><br>
+                <label>Address Street: </label>
+                <input type="text" />
+                <br><br>
 
-        <label>Address building: </label>
-        <input type="number" />
-        <br><br>
+                <label>Address building: </label>
+                <input type="number" />
+                <br><br>
 
-        <label>City:</label>
-        <select name="city">
-            <option value="1">Tel Aviv</option>
-            <option value="2">Jerusalem</option>
-            <option value="3">Haifa</option>
-            <option value="4">Ramat-Gan</option>
-        </select>
-        <br><br>
+                <label>City:</label>
+                <select name="city">
+                    <option value="1">Tel Aviv</option>
+                    <option value="2">Jerusalem</option>
+                    <option value="3">Haifa</option>
+                    <option value="4">Ramat-Gan</option>
+                </select>
+                <br><br>
 
-        <label>Country:</label>
-        <select name="c">
-            <option>United States Of America</option>
-            <option>Israel</option>
-            <option>Ukraine</option>
-        </select>
-        <br><br>
+                <label>Country:</label>
+                <select name="c">
+                    <option>United States Of America</option>
+                    <option>Israel</option>
+                    <option>Ukraine</option>
+                </select>
+                <br><br>
 
-        <input type="checkbox" name="sendPromo" id="sendPromoBox">
-        <label for="sendPromoBox">Send me promotional emails</label>
-        <br><br>
+                <input type="checkbox" name="sendPromo" id="sendPromoBox">
+                <label for="sendPromoBox">Send me promotional emails</label>
+                <br><br>
 
-        <label>
-            <input type="checkbox" name="knowHtml">
-            I Know HTML
-        </label>
+                <label>
+                    <input type="checkbox" name="knowHtml">
+                    I Know HTML
+                </label>
 
-        <br><br>
+                <br><br>
 
-        <label>Gender:</label>
-        <br>
+                <label>Gender:</label>
+                <br>
 
-        <input type="radio" name="gender" value="male" id="maleBox">
-        <label for="maleBox">Male</label>
-        <br>
-        <input type="radio" name="gender" value="female" id="femaleBox">
-        <label for="femaleBox">Female</label>
-        <br>
-        <input type="radio" name="gender" value="not sure" id="notSure">
-        <label for="notSure">Not sure</label>
-        <br><br>
+                <input type="radio" name="gender" value="male" id="maleBox">
+                <label for="maleBox">Male</label>
+                <br>
+                <input type="radio" name="gender" value="female" id="femaleBox">
+                <label for="femaleBox">Female</label>
+                <br>
+                <input type="radio" name="gender" value="not sure" id="notSure">
+                <label for="notSure">Not sure</label>
+                <br><br>
+            </div>
+            <div>
+                <button>Send</button>
+            </div>
 
-        <button>Send</button>
-
-    </form>
+        </form>
+    </div>
 
 </body>
 
