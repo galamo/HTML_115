@@ -215,4 +215,3 @@ Learn how to use external CSS to style your webpage using classes.
 
 6. **Style the Form (Optional):**
 
-   - Use inline CSS or a `<style>` tag in the `<head>` to improve the visual presentation of the form.
