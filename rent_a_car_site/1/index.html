@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        #main-page {
+            margin-left: 10%;
+            margin-right: 10%;
+        }
+
+        header {
+            height: 50px;
+            border-bottom: 2px solid black;
+            background: rgb(255, 222, 222);
+            /* overflow: auto; */
+        }
+
+        #header-links {
+            display: inline-block;
+            height: 100%;
+            margin-top: 15px;
+        }
+
+        /* #header-links>div {
+            display: inline-block;
+            height: 100%;
+            margin-left: 10px;
+        } */
+
+        .link {
+            display: inline-block;
+            height: 100%;
+            margin-left: 10px;
+        }
+
+        #main-content {
+            height: 500px;
+        }
+
+        #main-content>div {
+            display: inline-block;
+            height: 100%;
+            border: 1px solid red
+        }
+
+        #main-content>.main-content-section {
+            display: inline-block;
+            height: 100%;
+            border: 1px solid red
+        }
+    </style>
+</head>
+
+<body>
+    <div id="main-page">
+        <header>
+            <div id="header-links">
+                <div class="link">Home </div>
+                <div class="link">About </div>
+                <div class="link">Cars </div>
+                <div class="link">Sales </div>
+                <div class="link">Support </div>
+            </div>
+        </header>
+        <div id="content">
+            <div id="main-content">
+                <div class="main-content-section">
+                    Image
+                </div>
+                <div class="main-content-section">
+                    Text
+                </div>
+            </div>
+            <div id="secondary-content">
+                <div>
+                    IMAGE
+                </div>
+                <div>
+                    Text
+                </div>
+            </div>
+            <div id="commercial-content">
+                <div>
+                    IMAGE
+                </div>
+                <div>
+                    Text
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>
