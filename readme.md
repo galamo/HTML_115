@@ -221,3 +221,6 @@ Learn how to use external CSS to style your webpage using classes.
 
 6. **Style the Form (Optional):**
 
+
+# Homework
+- Finish the rental Car exercise from the class ( see above )
