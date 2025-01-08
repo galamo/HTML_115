@@ -224,3 +224,5 @@ Learn how to use external CSS to style your webpage using classes.
 
 # Homework
 - Finish the rental Car exercise from the class ( see above )
+
+
