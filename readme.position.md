@@ -145,3 +145,72 @@ All positioning types (except `static`) can use the following properties to adju
 | `sticky`     | Partially                  | Scroll + Viewport                       |
 
 ---
+
+
+
+# EX positioning
+
+# CSS Positioning Exercise
+
+This exercise will help you understand and practice the use of various CSS positioning properties: `fixed`, `relative`, `absolute`, and `sticky`. You will create a simple webpage layout that demonstrates how these properties work.
+
+---
+
+## Objective
+
+Build a webpage with the following layout:
+
+1. A **header** that stays fixed at the top of the screen (uses `position: fixed`).
+2. A **sidebar** positioned on the left, with content that remains relative to its container (uses `position: relative`).
+3. A **main content area** with an element that remains positioned relative to its parent (uses `position: absolute`).
+4. A **sticky footer** that stays at the bottom of the viewport until scrolled (uses `position: sticky`).
+
+---
+
+## Instructions
+
+### 1. Create the HTML Structure
+
+```html
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>CSS Positioning Exercise</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header>Fixed Header</header>
+  <div class="container">
+    <aside class="sidebar">Sidebar (Relative)</aside>
+    <main class="main-content">
+      <div class="absolute-box">Absolute Box</div>
+      <p>Scroll to see sticky footer...</p>
+    </main>
+  </div>
+  <footer>Sticky Footer</footer>
+</body>
+</html>
+```
+
+
+### 3. What to Do
+
+1. Copy the HTML and CSS into two separate files (`index.html` and `styles.css`).
+2. Open the HTML file in your browser.
+3. Observe how:
+   - The **header** remains fixed at the top of the screen.
+   - The **sidebar** content stays relative to its container.
+   - The **absolute box** inside the main content is positioned relative to its parent.
+   - The **footer** sticks to the bottom of the viewport when scrolling.
+4. Experiment by changing the positioning values and observing their effects.
+
+---
+
+## Bonus Task
+
+- Add more content to the main content area to make scrolling more obvious.
+- Experiment with `z-index` to control the stacking order of elements.
+- Try combining `position: sticky` with other elements, such as the sidebar.
+
