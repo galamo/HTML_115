@@ -1,0 +1,56 @@
+.league div {
+    border: 1px solid black;
+}
+
+.league {
+    width: 50%;
+    background: rgb(255, 255, 255);
+}
+
+.final-game {
+    position: fixed;
+    right: 0;
+    top: 50%;
+    padding: 10px
+}
+
+.league .team-name {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    color: black;
+    font-weight: bold;
+}
+
+.league .team-rank {
+    position: absolute;
+    top: 0;
+    left: 0;
+    color: black;
+    font-weight: bold;
+}
+
+.team1 {
+    background-image: url("./bj.png");
+    background-size: 150px;
+    height: 200px;
+    width: 100%;
+    position: relative;
+}
+
+.team2 {
+    background-image: url("./haifa.png");
+    background-size: 150px;
+    height: 200px;
+    width: 100%;
+    position: relative;
+
+}
+
+.team3 {
+    background-image: url("./tlv.png");
+    background-size: 150px;
+    height: 200px;
+    width: 100%;
+    position: relative;
+}
