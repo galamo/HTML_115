@@ -231,3 +231,5 @@ Learn how to use external CSS to style your webpage using classes.
 1. Complete the Animal store, rent_a_car_site\ex\03 - CSS - Flex & Grid.pdf
 2. Create advertise on the webpage, locate it in the left-middle of the site. use the following HTML:
 rent_a_car_site\2\index.html
+
+
