@@ -146,9 +146,7 @@ All positioning types (except `static`) can use the following properties to adju
 
 ---
 
-
-
-# EX positioning
+# Exercise positioning
 
 # CSS Positioning Exercise
 
@@ -174,26 +172,25 @@ Build a webpage with the following layout:
 ```html
 <!DOCTYPE html>
 <html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>CSS Positioning Exercise</title>
-  <link rel="stylesheet" href="styles.css">
-</head>
-<body>
-  <header>Fixed Header</header>
-  <div class="container">
-    <aside class="sidebar">Sidebar (Relative)</aside>
-    <main class="main-content">
-      <div class="absolute-box">Absolute Box</div>
-      <p>Scroll to see sticky footer...</p>
-    </main>
-  </div>
-  <footer>Sticky Footer</footer>
-</body>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>CSS Positioning Exercise</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <header>Fixed Header</header>
+    <div class="container">
+      <aside class="sidebar">Sidebar (Relative)</aside>
+      <main class="main-content">
+        <div class="absolute-box">Absolute Box</div>
+        <p>Scroll to see sticky footer...</p>
+      </main>
+    </div>
+    <footer>Sticky Footer</footer>
+  </body>
 </html>
 ```
-
 
 ### 3. What to Do
 
@@ -213,4 +210,3 @@ Build a webpage with the following layout:
 - Add more content to the main content area to make scrolling more obvious.
 - Experiment with `z-index` to control the stacking order of elements.
 - Try combining `position: sticky` with other elements, such as the sidebar.
-
