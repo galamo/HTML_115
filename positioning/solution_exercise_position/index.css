@@ -1,0 +1,75 @@
+/* Reset Styles */
+body,
+html {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* General Styles */
+body {
+  font-family: Arial, sans-serif;
+}
+
+/* Fixed Header */
+header {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 50px;
+  background-color: #333;
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  z-index: 1000;
+}
+
+/* Container */
+.container {
+  display: flex;
+  margin-top: 50px; /* Offset for the fixed header */
+  height: 100vh;
+}
+
+/* Sidebar (Relative) */
+.sidebar {
+  position: relative;
+  width: 200px;
+  background-color: #f4f4f4;
+  padding: 10px;
+}
+
+/* Main Content */
+.main-content {
+  flex: 1;
+  padding: 20px;
+  background-color: #fff;
+  position: relative;
+}
+
+/* Absolute Box */
+.absolute-box {
+  position: absolute;
+  top: 20px;
+  right: 20px;
+  width: 150px;
+  height: 150px;
+  background-color: #4caf50;
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+/* Sticky Footer */
+footer {
+  position: sticky;
+  bottom: 0;
+  width: 100%;
+  background-color: #333;
+  color: white;
+  text-align: center;
+  padding: 10px;
+}
