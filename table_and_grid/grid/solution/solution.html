@@ -47,6 +47,30 @@
             grid-column: 4;
             grid-row: 3;
         }
+
+        .content {
+            position: relative;
+            background-image: url("https://letsenhance.io/static/8f5e523ee6b2479e26ecc91b9c25261e/1015f/MainAfter.jpg");
+            background-size: 100% 100%;
+        }
+
+        .label-right {
+            position: absolute;
+            z-index: 99;
+            display: flex;
+            flex-direction: column;
+            gap: 5px;
+            bottom: 0;
+            left: 0;
+        }
+
+        .label-right>span {
+            background-color: #273044;
+            font-size: 1.5rem;
+            color: white;
+
+
+        }
     </style>
 </head>
 
@@ -58,7 +82,14 @@
         <div class="three">Three</div>
         <div class="four">Four</div>
         <div class="five">Five</div>
-        <div class="six">Six</div>
+        <div class="six content">
+            <div class="label-right">
+                <span> Tomer is CSS Master </span>
+                <span> Liran is A JS Master </span>
+                <span style="font-size: 1rem; text-align: left; padding: 4px; width: 75px;">15/01/2025</span>
+
+            </div>
+        </div>
         <div class="seven">Seven</div>
 
 
