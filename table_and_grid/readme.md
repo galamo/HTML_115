@@ -38,3 +38,8 @@
 4. repeat
 5. ?
 6. grid item
+
+
+# Exercise Grid
+## Try to design this page in Grid
+-   ![implement only this layout](./hw-screen-shot/dothisingridpng.png)
