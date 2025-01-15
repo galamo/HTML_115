@@ -43,3 +43,7 @@
 # Exercise Grid
 ## Try to design this page in Grid
 -   ![implement only this layout](./hw-screen-shot/dothisingridpng.png)
+
+
+## More cool CSS examples:
+### https://github.com/HoanghoDev/youtube_v2.git
