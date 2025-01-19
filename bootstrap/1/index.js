@@ -1,4 +1,9 @@
 // Define an array of colors
+
+function test() {
+    console.log("test")
+}
+
 const colors = [
     "lightblue",
     "lightgreen",
