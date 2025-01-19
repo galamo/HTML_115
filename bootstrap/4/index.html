@@ -11,6 +11,37 @@
 
 </head>
 
+<style>
+    .carousel {
+        width: 100%;
+        height: 400px;
+
+    }
+
+    .carousel-control-prev-icon,
+    .carousel-control-next-icon {
+        height: 100px;
+        width: 100px;
+        outline: black;
+        background-size: 100%, 100%;
+        border-radius: 50%;
+        border: 1px solid black;
+        background-image: none;
+    }
+
+    .carousel-control-next-icon:after {
+        content: '>';
+        font-size: 55px;
+        color: red;
+    }
+
+    .carousel-control-prev-icon:after {
+        content: '<';
+        font-size: 55px;
+        color: red;
+    }
+</style>
+
 <body>
     <div class="container">
         <div class="row">
@@ -57,17 +88,41 @@
             </nav>
         </div>
         <div class="row text-center">
-
             <h1>Pricing</h1>
             <h2> Our new products </h2>
             <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Amet consequuntur obcaecati corrupti quos
                 expedita, iusto sunt id ratione ipsum illum accusantium dignissimos natus voluptatibus, similique
                 accusamus, quo beatae animi odio?</p>
-
-
         </div>
-        <div class="row justify-content-start">
 
+        <div id="carouselExample" class="carousel slide">
+            <div class="carousel-inner">
+                <div class="carousel-item active" style="text-align: center;">
+                    <img height="400px"
+                        src="https://media.gettyimages.com/id/157185375/photo/three-diamonds-set-in-a-white-gold-ring-isolated-on-white.jpg?s=612x612&w=0&k=20&c=AGUN2NdvrdIuKTm9ai8s4ZMQS0oDe2_qqQnhUNFTFhY="
+                        alt="">
+                </div>
+                <div class="carousel-item" style="text-align: center;">
+                    <img height="400px" src="https://lovediamonds.com/wp-content/uploads/2021/10/84842.alt1_.jpg"
+                        alt="">
+                </div>
+                <div class="carousel-item" style="text-align: center;">
+                    <img height="400px"
+                        src="https://ae-pic-a1.aliexpress-media.com/kf/H3b7387f9a4ea4059830000c99a836baaq.jpg_960x960q75.jpg_.avif"
+                        alt="">
+                </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExample" data-bs-slide="prev">
+                <span class="carousel-control-prev-icon " style="color:black" aria-hidden="true"></span>
+                <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExample" data-bs-slide="next">
+                <span class="carousel-control-next-icon" style="color:black" aria-hidden="true"></span>
+                <span class="visually-hidden">Next</span>
+            </button>
+        </div>
+
+        <div class="row justify-content-start mt-5">
             <div class="card" style="width: 18rem;">
                 <div class="spinner-border" role="status">
                     <span class="visually-hidden">Loading...</span>
