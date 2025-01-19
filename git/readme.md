@@ -118,3 +118,6 @@ git reset --hard <commit_hash>
 - [Atlassian Git Tutorials](https://www.atlassian.com/git/tutorials)
 
 ---
+
+-   ![implement only this layout](https://www.nobledesktop.com/image/gitresources/git-branches-merge.png)
+
