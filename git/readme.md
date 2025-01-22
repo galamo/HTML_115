@@ -121,3 +121,5 @@ git reset --hard <commit_hash>
 
 -   ![implement only this layout](https://www.nobledesktop.com/image/gitresources/git-branches-merge.png)
 
+
+1.
